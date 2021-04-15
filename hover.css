@@ -1,0 +1,291 @@
+#ByList:hover {
+    background-color: #555555;
+    opacity: .5;
+    cursor: pointer;
+}
+
+#ByType:hover {
+    background-color: #555555;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.NoticeBoard a:hover {
+    opacity: .5;
+}
+
+#Name input:active {
+    text-shadow: 20px blue;
+}
+
+.Credidentials ul {
+    margin-left: 5%;
+    padding-left: 0px;
+    margin-top: 0px;
+    padding-top: 5px;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
+.Credidentials input {
+    padding: 9px 9px;
+    width: 81%;
+    height: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-left: 2px;
+}
+
+.Verification {
+    border: 1px #d3d3d3;
+    border-style: solid;
+    margin-left: 9.5%;
+    padding-left: 10px;
+    width: 300px;
+    height: 75px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    clear: both;
+    display: table;
+}
+
+.VerificationLHS {
+    width: 50%;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+#checkbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    border: 2px solid #c1c1c1;
+}
+
+.VerificationRHS {
+    width: 25%;
+    display: inline;
+    float: right;
+    padding-bottom: 5px;
+}
+
+.RHSImage {
+    width: fit-content;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 10%;
+}
+
+.RHSImage img {
+    width: 55px;
+    height: 43px;
+}
+
+.IMGCapUpper a {
+    text-decoration: none;
+    color: grey;
+}
+
+.IMGCapUpper {
+    width: 80%;
+    text-align: center;
+    font-size: 9px;
+    margin-left: 10%;
+}
+
+.Lower a {
+    text-decoration: none;
+    color: black;
+}
+
+.Lower {
+    width: 80%;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 8px;
+    margin-left: 10%;
+}
+
+.LastRowLogin {
+    margin-left: 9.5%;
+    width: 300px;
+    height: 50px;
+}
+
+.LastRowLHS {
+    width: 70%;
+    padding: 8px 1px;
+    display: inline-block;
+}
+
+#ForgotPassword {
+    font-size: 96%;
+}
+
+#ForgotPassword a {
+    text-decoration: none;
+    opacity: .7;
+}
+
+#ParentConsole a {
+    font-size: 110%;
+    font-weight: bold;
+    color: red;
+}
+
+.LoginButton {
+    width: 22.5%;
+    display: inline;
+    float: right;
+    clear: both;
+    display: table;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #1E1F4A;
+    text-align: center;
+    margin-top: 12px;
+    padding-top: 15px;
+}
+
+.LoginButton a {
+    text-decoration: none;
+    color: white;
+}
+
+.Latest {
+    margin-left: 5.5%;
+    width: 58%;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Latest h1 {
+    font-size: 28px;
+}
+
+.Adds {
+    width: 230px;
+    height: 305px;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding-left: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.Adds p {
+    font-size: 75%;
+    color: #8ea396;
+    margin-right: 15px;
+}
+
+.Adds a {
+    font-size: 80%;
+    text-decoration: none;
+    background-color: #1E1F4A;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+.Events {
+    width: 29.8%;
+    display: inline;
+    float: right;
+    margin-right: 5.5%;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 1.8%;
+    box-sizing: border-box;
+}
+
+.Events h1 {
+    font-size: 28px;
+}
+
+.EventContainer {
+    overflow: auto;
+    max-height: 200px;
+    margin-top: 8%;
+}
+
+.EventsList {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.EventLHS {
+    border-radius: 7px;
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    color: #13a893;
+    display: inline-block;
+}
+
+.EventRHS {
+    width: 60%;
+    margin-right: 12%;
+    height: 90px;
+    float: right;
+    display: inline;
+}
+
+.RHSList {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.RHSList a {
+    font-size: 80%;
+    text-decoration: none;
+    color: royalblue;
+}
+
+.EventLHS table {
+    padding-top: 5px;
+}
+
+.RHSDateMonth {
+    padding-bottom: 8px;
+    font-size: 85%;
+}
+
+.RHSDateFull {
+    font-size: 75%;
+    padding-left: 0px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.LastRow {
+    height: 70px;
+    background-color: #1E1F4A;
+    text-align: center;
+    padding-top: 2.2%;
+    color: white;
+    font-size: 80%;
+    box-sizing: border-box;
+}
+
+.LastRow a {
+    color: #428bca;
+    opacity: .7;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 120%;
+    padding-left: 10px;
+}
+
+.Body {
+    margin: 0;
+    width: 100%;
+}
