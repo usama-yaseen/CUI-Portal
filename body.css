@@ -9,7 +9,7 @@ iframe {
 }
 
 .Body {
-    background-image: url("bg.jpg");
+    background-image: url("./Img/bg.jpg");
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
@@ -38,7 +38,7 @@ iframe {
 }
 
 .NoticeBoard {
-    background-image: url("chalkboard.png");
+    background-image: url("./Img/chalkboard.png");
     margin-left: 5.5%;
     width: 57%;
     max-height: 320px;
