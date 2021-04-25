@@ -361,20 +361,13 @@
 
     function Write(latlon) {
         alert("Go to the End of the Page.");
-        var editFile = newfile.CreateTextFile("D:\Coding\WebDevelopment\CUI-Portal\Coordinates.txt", true);
-        editFile.WriteLine("Coordinates = " + latlon);
-        editFile.WriteLine('-------------');
-        editFile.Close();
-
-        var txtFile = "D:\Coding\WebDevelopment\CUI-Portal\Coordinates.txt";
-        var file = new File(txtFile);
-        var str = "My string of text";
-
-        file.open("w"); // open file with write access
-        file.writeln("First line of text");
-        file.writeln("Second line of text " + str);
-        file.write(str);
-        file.close();
+        var myObject = new ActiveXObject("Scripting.FileSystemObject");
+        alert("ABC");
+        if (myObject.FileExists("coordinates.txt")) {
+            alert("File Exists");
+        } else {
+            alert("File doesn't exist");
+        }
     }
 </script>
 

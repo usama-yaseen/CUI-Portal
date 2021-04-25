@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./body.css">
     <link rel="stylesheet" href="./hover.css">
     <link rel="shortcut icon" href="/fav.png">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body class="Body">
@@ -356,26 +357,11 @@
         document.getElementById("Location").style.display = "block";
 
         document.getElementById("Map").src = "https://maps.google.com/maps?q=" + latlon + "&z=15&output=embed";
-        Write(latlon);
     }
 
-    function Write(latlon) {
-        alert("here");
-        var editFile = newfile.CreateTextFile("D:\Coding\WebDevelopment\CUI-Portal\Coordinates.txt", true);
-        editFile.WriteLine("Coordinates = " + latlon);
-        editFile.WriteLine('-------------');
-        editFile.Close();
+    function Write(latlon) {}
 
-        var txtFile = "D:\Coding\WebDevelopment\CUI-Portal\Coordinates.txt";
-        var file = new File(txtFile);
-        var str = "My string of text";
-
-        file.open("w"); // open file with write access
-        file.writeln("First line of text");
-        file.writeln("Second line of text " + str);
-        file.write(str);
-        file.close();
-    }
+    function sendEmail() {}
 </script>
 
 </html>
